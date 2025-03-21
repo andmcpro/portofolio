@@ -4,6 +4,7 @@ import Hero from "./hero";
 import AccordionSection from "./AccordionSection";
 import ProjectsSection from "./ProjectSection";
 import Footer from "./Footer";
+import Footerv2 from "./Footerv2";
 
 export default function Home() {
   return (
@@ -12,11 +13,12 @@ export default function Home() {
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
         rel="stylesheet"
       />
-      <Navigation />
+      {/* <Navigation /> */}
       <Hero />
       <AccordionSection />
       <ProjectsSection />
-      <Footer />
+      {/* <Footer /> */}
+      <Footerv2 />
     </>
   );
 }

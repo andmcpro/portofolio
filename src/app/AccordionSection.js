@@ -43,6 +43,61 @@ const AccordionSection = () => {
             </>
           }
         />
+        <AccordionItem
+          title="Hard Skills"
+          content={
+            <div>
+              <h3 className="">Web Development</h3>
+
+              <ul className="list-disc pl-5 text-sm">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Java Script</li>
+                <li>React.js</li>
+                <li>Tailwind CSS</li>
+              </ul>
+              <br></br>
+
+              <h3>Database Management</h3>
+              <ul className="list-disc pl-5 text-sm">
+                <li>SQL</li>
+              </ul>
+              <br></br>
+
+              <h3>Version Control</h3>
+              <ul className="list-disc pl-5 text-sm">
+                <li>Github</li>
+              </ul>
+              <br></br>
+
+              <h3>Office Application</h3>
+              <ul className="list-disc pl-5 text-sm">
+                <li>{"Microsoft Office (Excel, Word, PowerPoint)"}</li>
+              </ul>
+              <br></br>
+
+              <h3>Development Tools</h3>
+              <ul className="list-disc pl-5 text-sm">
+                <li>Visual Studio Code</li>
+              </ul>
+              <br></br>
+            </div>
+          }
+        />
+
+        <AccordionItem
+          title="Soft Skills"
+          content={
+            <>
+              <h3></h3>
+              <ul className="list-disc pl-5 text-sm">
+                <li>Pekerja Keras</li>
+                <li>Berkemauan tinggi untuk belajar memperdalam ilmu</li>
+                <li>Mampu beradaptasi dalam suatu lingkungan</li>
+              </ul>
+            </>
+          }
+        />
         {/* {[...Array(4)].map((_, index) => (
           <AccordionItem key={index} title="Title" content="" />
         ))} */}
